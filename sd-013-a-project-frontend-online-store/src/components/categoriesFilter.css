@@ -1,0 +1,14 @@
+.asideFilter {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.asideNav {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.asideNav p {
+  margin-bottom: 7px;
+}

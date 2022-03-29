@@ -1,0 +1,79 @@
+.cartQuantityHandler {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+
+}
+
+.cartQuantityInfos {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalValue {
+  align-items: center;
+  display: flex;
+}
+
+.totalValue p {
+  color: rgb(71, 207, 100);
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.inCartTotal {
+  align-items: center;
+  display: flex;
+}
+
+.inCartTotal p {
+  color: rgb(71, 207, 100);
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+
+.cartQuantityButtons {
+  display: flex;
+  width: 35%;
+}
+
+.handleQuantityButton {
+  border: none;
+  border-radius: 7px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.322);
+  color: black;
+  font-size: 35px;
+  height: 60px;
+  margin-left: 10px;
+  padding: 0;
+  width: 60px;
+}
+
+.subtract {
+  color: red;
+  font-weight: 800;
+}
+
+.add {
+  color: rgb(71, 207, 100);
+  font-weight: 800;
+}
+
+.noadd {
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 0 0;
+  color: rgb(199, 199, 199);
+  font-weight: 800;
+}
+
+.remove {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}

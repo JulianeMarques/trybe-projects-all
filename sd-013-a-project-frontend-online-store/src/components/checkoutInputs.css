@@ -1,0 +1,33 @@
+.checkoutInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.textInputs input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.personalInfo .fullName {
+  margin-left: 15px;
+  width: 560px;
+}
+
+.personalInfo .email {
+  width: 320px;
+}
+
+.addressInfo {
+  margin: 10px 0;
+}
+
+.addressInfo .address {
+  width: 60%;
+}
+
+.cardInputs {
+  display: flex;
+  margin-bottom: 20px;
+}

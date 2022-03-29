@@ -1,0 +1,40 @@
+.productDetails {
+  background-color: rgb(236, 111, 28);
+}
+
+.detailsCard {
+  background-color: rgb(59, 63, 99);
+  display: flex;
+}
+
+.imageDiv {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  margin: 20px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+.detailsCard img {
+  height: auto;
+}
+
+.infosCardDetails {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  color: white;
+}
+
+.infoSpecs {
+  display: flex;
+}
+
+.cartQuantityHandler {
+  color: black;
+}
+
+header {
+  background-color: rgb(236, 111, 28);
+}

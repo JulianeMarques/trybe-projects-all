@@ -1,0 +1,63 @@
+.homeMain {
+  background-color: rgb(236, 111, 28);
+  color: white;
+  padding: 20px;
+}
+
+aside {
+  background-color: rgb(59, 63, 99);
+  color: white;
+  padding: 30px;
+  border-top: 30px;
+}
+
+.productList {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.homeCards {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchMsg {
+  text-align: center;
+  width: 100%;
+}
+
+.notFound {
+  text-align: center;
+  width: 100%;
+}
+
+.topInputHome {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.topInputHome div {
+  display: flex;
+  width: 100%;
+}
+
+.topInputHome input {
+  align-self: flex-start;
+  border-radius: 50px;
+  height: 30px;
+  margin-left: 10px;
+  width: 80%;
+}
+
+.topInputHome button {
+  border-radius: 50px;
+  height: 35px;
+  margin: 0 10px;
+  width: 100px;
+  color: black;
+}
+
+
